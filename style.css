@@ -1,0 +1,316 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header {
+	background-color: #D326A3;
+	padding: 15px 0;
+}
+.logo{
+	width: 112px;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header__container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.nav__list{
+	display: flex;
+}
+.nav__item{
+	color: #E4E4E4;
+/*font-family: "Nico Moji";*/
+font-size: 18px;
+font-weight: 400;
+margin-left: 63px;
+list-style: none;
+}
+.hero-block__img{
+	width: 565px;
+	margin-right: 63px;
+}
+.hero-block{
+	background-color: rgb(103, 203, 50);
+	padding: 90px 0;
+}
+.hero-block__taitl{
+	color: rgb(255, 255, 255);
+font-family: Nico Moji;
+font-size: 72px;
+font-weight: 400;
+line-height: 72px;
+margin-bottom: 30px;
+}
+.hero-block__container{
+	display: flex;
+	align-items: center;
+}
+ .hero-block__link{
+border-radius: 6px;
+padding: 15px 55px;
+background: rgb(211, 38, 163);
+}
+.about{
+	background: rgb(211, 38, 163);
+	padding: 70px 0 154px;
+	color: rgb(145, 38, 211);
+}
+.container__about{
+	padding: 70px 0 132px;
+}
+.about__title{
+	color: rgb(228, 228, 228);
+font-family: Roboto;
+font-size: 28px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
+.about__content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.about__text{
+	max-width: 534px;
+	color: rgb(228, 228, 228);
+font-family: Roboto;
+font-size: 28px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.about__img{
+	width: 554px;
+height: 618px;
+border-radius: 50%;
+}
+.video{
+ background: rgb(103, 203, 50);
+}
+.video__title{
+	color: rgb(255, 255, 255);
+font-family: Nico Moji;
+font-size: 28px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 38px;
+padding-top: 70px ;
+text-decoration: none;
+}
+.video__video{
+	width: 100%;
+	height: 668px;
+	border: 50px solid gray;
+	border-radius:30px ;
+	box-sizing: border-box;
+}
+.video__container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.gallery__img{
+	width: 100%;
+	height: 100%;
+}
+.gallery__item{
+	width: 550px;
+	margin: 5px;
+	height: 390px;
+}
+.gallery__list{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.gallery{
+	background: rgb(211, 38, 163);
+	padding-top: 30px;
+}
+.gallery__title{
+	color: rgb(255, 255, 255);
+font-family: Nico Moji;
+font-size: 28px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+margin: 30px 0;
+}
+.footer{
+	background: rgb(65, 65, 65);
+}
+.footer__title{
+	color: white;
+font-family: Nico Moji;
+font-size: 15px;
+font-weight: 200;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 15px;
+}
+.footer__text{
+	color: rgb(255, 255, 255);
+font-family: Nico Moji;
+font-size: 15px;
+font-weight: 200;
+line-height: 164.06%;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer__list{
+	display: flex;
+	list-style: none;
+}
+.footer__item{
+	margin-right: 30px;
+
+}
+.footer__container{
+	display: flex;
+	justify-content: space-around;
+}
+.author {
+	background: url(https://sun9-53.userapi.com/impg/Rr7kZyJhGmsX0wGj1cIkt3vmT218JL2pKS04fw/c0a3eKfvCGU.jpg?size=1920x1200&quality=96&sign=df5c9d042c1d34b566c0abcd977d2149&type=album) center center no-repeat; background-size: cover;
+style=" width: 500px; height: 305px; margin-top: 41,9886px;"
+}
+
+.author__img{
+	width: 550px;
+	height: 650px;
+}
+.author__text{
+	color: black;
+	font-family: Nico Moji;
+font-size: 20px;
+font-weight: 200;
+line-height: 120.06%;
+letter-spacing: 0%;
+}
+.myvideo {
+	background: url(https://sun9-53.userapi.com/impg/Rr7kZyJhGmsX0wGj1cIkt3vmT218JL2pKS04fw/c0a3eKfvCGU.jpg?size=1920x1200&quality=96&sign=df5c9d042c1d34b566c0abcd977d2149&type=album) center center no-repeat; background-size: cover;
+style=" width: 500px; height: 305px; margin-top: 41,9886px;"
+}
+.myvideo__myvideo{
+	width: 100%;
+	height: 668px;
+	border: 50px solid gray;
+	border-radius:30px ;
+	box-sizing: border-box;
+}
+.myvideo__container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.mygallery__list{
+	display: flex;
+	list-style: none;
+}
+.mygallery__item{
+	width: 550px;
+	margin: 10px;
+	height: 390px;
+}
+.mygallery__img{
+	width: 100%;
+	height: 100%;
+}
+.hisgallery{
+	background: rgb(103, 203, 50);
+}
+.hisgallery__title{
+	color: rgb(255, 255, 255);
+font-family: Nico Moji;
+font-size: 28px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+margin: 50px 0;
+}
+.hisgallery__item{
+	width: 404px;
+	margin: 5px;
+	height: 708px;
+}
+.hisgallery__img{
+	width: 100%;
+	height: 100%;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+.hisgallery__list{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.verticalhorizontal{
+	display: table-cell;
+	height: 300px;
+	text-align: center;
+	vertical-align: middle;
+}
+.gallery{
+	background: rgb(211, 38, 163);
+	padding-top: 30px;
+}
+.gallery__title{
+	color: rgb(255, 255, 255);
+font-family: Nico Moji;
+font-size: 28px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+margin: 30px 0;
+}
+@media (max-width:390px){
+	.container{
+	max-width: 380px;
+	margin: 0 auto;
+}
+.nav__list{
+	display: none;
+}
+.hero-block__img{
+	width: 250px;
+}
+.hero-block__container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+ .about__content{
+ 	display: flex;
+ 	align-items: center;
+ 	flex-direction: column;
+ }
+ .about__img{
+ 	width: 299px;
+ 	height: 299px;
+ }
+ .gallery__item{
+ 	width: 350px;
+ 	height: 300px;
+ }
+ .footer__container{
+ 	flex-direction: column;
+ 	align-items: center;
+ }
+ 
+ 
